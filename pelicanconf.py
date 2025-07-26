@@ -48,3 +48,5 @@ MENUITEMS = (
 
 # Set to False to generate absolute URLs (recommended for deployment)
 RELATIVE_URLS = False
+
+DELETE_OUTPUT_DIRECTORY = True # Recommended for clean builds

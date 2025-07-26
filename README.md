@@ -10,3 +10,17 @@ Generate output locally:
 Generate output for remote:  
 `pelican content -s publishconf.py`
 
+
+```
+cd output
+touch .nojekyll
+
+git init
+
+git add .
+
+git commit -m "new content"
+
+git remote add origin https://github.com/rogerbrinkmann/vtp
+
+git push --force origin master:gh-pages
