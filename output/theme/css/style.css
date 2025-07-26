@@ -1,0 +1,106 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #3f1717;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    /* Default font size for desktop */
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    /* Use flexbox for navigation items */
+    justify-content: center;
+    /* Center navigation items */
+    flex-wrap: wrap;
+    /* Allow items to wrap on smaller screens */
+}
+
+nav ul li {
+    margin: 0 10px;
+    padding: 5px 0;
+    /* Add some vertical padding for touch targets */
+}
+
+main {
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+article {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+/* For screens smaller than 768px (e.g., tablets and phones) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+        /* Adjust vertical margin for stacked items */
+    }
+
+    article {
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+}
+
+/* For screens smaller than 480px (e.g., most phones) */
+@media (max-width: 480px) {
+    header {
+        padding: 0.8rem 0;
+        /* Reduce header padding */
+    }
+
+    header h1 {
+        font-size: 1.5em;
+        /* Even smaller font for phones */
+    }
+
+    nav ul li {
+        font-size: 0.9em;
+        /* Smaller font for nav links */
+    }
+
+}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Table of Contents - {{ SITENAME }}{% endblock title %}
+
+{% block content %}
+<h2>Table of Contents</h2>
+<ul>
+    {# Sort articles alphabetically by title #}
+    {% for article in articles|sort(attribute='title') %}
+    <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock content %}

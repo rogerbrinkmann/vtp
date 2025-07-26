@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - Home{% endblock title %}
+
+{% block content %}
+    <h2>Latest Articles</h2>
+    {# Sort articles alphabetically by title #}
+    {% for article in articles|sort(attribute='title') %}
+        <article>
+            <h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+            <p><time datetime="{{ article.date.isoformat() }}">{{ article.date|strftime('%B %d, %Y') }}</time></p>
+            {{ article.summary }}
+            <a href="{{ SITEURL }}/{{ article.url }}">Read more &raquo;</a>
+        </article>
+    {% endfor %}
+{% endblock content %}

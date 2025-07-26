@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} - {{ SITENAME }}{% endblock title %}
+
+{% block content %}
+    <article>
+        <h1>{{ article.title }}</h1>
+        <p>
+            By {{ article.author }} on <time datetime="{{ article.date.isoformat() }}">{{ article.date|strftime('%B %d, %Y') }}</time>
+            {% if article.category %}
+                in <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+            {% endif %}
+        </p>
+        {{ article.content }}
+    </article>
+    <p><a href="{{ SITEURL }}">Back to home</a></p>
+{% endblock content %}
