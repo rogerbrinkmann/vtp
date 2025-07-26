@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Value of True Parents</title><link href="https://rogerbrinkmann.github.io/vtp/" rel="alternate"/><link href="https://rogerbrinkmann.github.io/vtp/feeds/all.atom.xml" rel="self"/><id>https://rogerbrinkmann.github.io/vtp/</id><updated>2025-07-26T14:30:00+02:00</updated><entry><title>02 Chatpter 1</title><link href="https://rogerbrinkmann.github.io/vtp/chapter-1.html" rel="alternate"/><published>2025-07-26T14:30:00+02:00</published><updated>2025-07-26T14:30:00+02:00</updated><author><name>Roger Brinkmann</name></author><id>tag:rogerbrinkmann.github.io,2025-07-26:/vtp/chapter-1.html</id><summary type="html">&lt;p&gt;Content of chapter 1&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Subheading&lt;/h2&gt;
+&lt;p&gt;Text&lt;/p&gt;</content><category term="Book"/><category term="Chapter 1"/></entry><entry><title>01 Preface</title><link href="https://rogerbrinkmann.github.io/vtp/preface.html" rel="alternate"/><published>2025-07-26T14:30:00+02:00</published><updated>2025-07-26T14:30:00+02:00</updated><author><name>Roger Brinkmann</name></author><id>tag:rogerbrinkmann.github.io,2025-07-26:/vtp/preface.html</id><summary type="html">&lt;p&gt;This article discusses how to add content to your Pelican site.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the main body of your second article.&lt;/p&gt;
+&lt;p&gt;You can write your content here using &lt;strong&gt;Markdown syntax&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This is a list item.&lt;/li&gt;
+&lt;li&gt;Another item.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Headings&lt;/h2&gt;
+&lt;h3&gt;Subheading&lt;/h3&gt;
+&lt;p&gt;You can also include &lt;code&gt;code snippets&lt;/code&gt; or &lt;a href="https://www.example.com"&gt;links&lt;/a&gt;.&lt;/p&gt;</content><category term="Book"/><category term="Preface"/></entry></feed>
