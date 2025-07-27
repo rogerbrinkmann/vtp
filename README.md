@@ -24,3 +24,4 @@ git commit -m "new content"
 git remote add origin https://github.com/rogerbrinkmann/vtp
 
 git push --force origin master:gh-pages
+```
